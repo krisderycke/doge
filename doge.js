@@ -6,6 +6,14 @@ function woof() {
   document.getElementById("doge").innerHTML = "woof woof!";
 }
 
+function picture() {
+  document.getElementById("pic").style.display = "block";
+}
+
+function loadPage() {
+  document.getElementById("doge").innerHTML = "woof";
+}
+
 // function picture() {
 //   document.getElementById("doge").innerHTML = "fff";
 // }
