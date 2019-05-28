@@ -3,11 +3,11 @@ document.getElementById("doge").addEventListener("mouseout", woof);
 document.getElementById("doge").addEventListener("click", picture);
 
 function picture() {
-  if (document.getElementById("pic").style.display === "block") {
-    document.getElementById("pic").style.display = "none";
+  if (document.getElementById("pic").style.display === "none") {
+    document.getElementById("pic").style.display = "block";
     console.log("lol");
   } else {
-    document.getElementById("pic").style.display = "block";
+    document.getElementById("pic").style.display = "none";
     console.log("lol2");
   }
 }
